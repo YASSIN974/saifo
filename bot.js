@@ -252,7 +252,7 @@ if (message.content.startsWith(prefix + 'setavatar')) {
  });
  
  
-});
+
 client.on('message', async msg => {
     var p = "."
   if(msg.content.startsWith(p + "bc")) {
