@@ -187,7 +187,7 @@ if (message.content.startsWith(prefix + 'setavatar')) {
 }
 });
  client.on('message' , message => {
-  var prefix = "R";
+  var prefix = "*";
   if(message.author.bot) return;
  
   if(message.content.startsWith(prefix + "xo")) {
